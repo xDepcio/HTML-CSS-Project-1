@@ -1,0 +1,12 @@
+/* Your code here */
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.main-nav ul li {
+    margin: 0 7px;
+    font-size: 12px;
+}

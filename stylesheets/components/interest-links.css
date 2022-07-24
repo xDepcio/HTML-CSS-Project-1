@@ -1,0 +1,81 @@
+/* Your code here */
+
+.interests-bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    grid-template-rows: 130px;
+    /* background-color: blue; */
+    /* gap: 2px; */
+}
+
+.interests-bar div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+    /* height: 150px; */
+}
+
+.interests-bar {
+    border-top: 2px solid black;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+
+.interests-bar__image {
+    display: flex;
+    justify-content: center;
+}
+
+
+.interests-bar img {
+    width: 75%;
+    height: 75%;
+}
+
+.interests-bar h4 {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.interests-bar span {
+    line-height: 1.1rem;
+}
+
+.interests-bar__headline {
+    border-right: 1px solid #e2e2e2;
+    height: 110px;
+}
+
+.interests-bar__stocks {
+    border-right: 1px solid #e2e2e2;
+    height: 110px;
+}
+
+.interests-bar__stocks {
+    display: grid;
+}
+
+.interests-bar__stocks ul {
+    align-self: center;
+}
+
+.interests-bar__stocks ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1px solid #e2e2e2;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.interests-bar__stocks-percentage {
+    color: rgb(45, 185, 45);
+    font-weight: 600;
+}
+
+.interests-bar__temp {
+    text-align: center;
+    font-weight: bold;
+}

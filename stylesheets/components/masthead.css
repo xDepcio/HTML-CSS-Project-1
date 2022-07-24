@@ -1,0 +1,84 @@
+/* Your code here */
+.masthead {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: pink; */
+    /* gap: 4px; */
+}
+
+.masthead div {
+    /* background-color: palevioletred; */
+}
+
+.masthead__search-and-menu {
+    grid-column-start: 1;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.masthead__subs-login {
+    grid-column-start: 3;
+}
+
+.masthead__technologies {
+    grid-column-start: 2;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-bottom: 0;
+    background-color: white;
+    position: relative;
+    top: 1px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.masthead__date {
+    grid-column-start: 1;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+    border-top: 1px solid #e2e2e2;
+}
+
+.masthead__button-icons {
+    font-size: 11px;
+    padding: 7px 9px;
+}
+
+.masthead__button-icons:hover {
+    background-color: #f7f7f5;
+}
+
+.masthead__subs-login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 6px;
+}
+
+.masthead__technologies span {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #6f6f6f;
+    margin: 0 5px;
+}
+
+.masthead__logo {
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 15px;
+    border-top: 1px solid #e2e2e2;
+    padding-top: 15px;
+
+}
+
+.masthead__todays-paper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+    border-top: 1px solid #e2e2e2;
+}
